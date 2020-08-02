@@ -76,6 +76,10 @@
         "source": "I:\\Development\\Android\\Foreign Clinents\\ExampleProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "I:\\Development\\Android\\Foreign Clinents\\ExampleProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_favorite_list.xml.flat",
+        "source": "I:\\Development\\Android\\Foreign Clinents\\ExampleProject\\app\\src\\main\\res\\layout\\item_favorite_list.xml"
+    },
+    {
         "merged": "I:\\Development\\Android\\Foreign Clinents\\ExampleProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "I:\\Development\\Android\\Foreign Clinents\\ExampleProject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },

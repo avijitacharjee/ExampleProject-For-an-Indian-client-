@@ -1,4 +1,4 @@
-#Sun Aug 02 15:30:50 BDT 2020
+#Sun Aug 02 20:14:49 BDT 2020
 base.0=I\:\\Development\\Android\\Foreign Clinents\\ExampleProject\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

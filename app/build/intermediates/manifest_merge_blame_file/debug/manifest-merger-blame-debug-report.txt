@@ -25,38 +25,37 @@
 17-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.exampleproject.Vegetables2" />
-21-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:12:9-84
-21-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:12:19-72
-22        <activity android:name="com.example.exampleproject.Fruits2" />
-22-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:13:9-71
-22-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:13:19-68
-23        <activity android:name="com.example.exampleproject.Favorites" />
-23-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:14:9-73
-23-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:14:19-70
-24        <activity android:name="com.example.exampleproject.Vegetables" />
-24-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:15:9-74
-24-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:15:19-71
-25        <activity android:name="com.example.exampleproject.Fruits" />
-25-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:16:9-70
-25-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:16:19-67
-26        <activity android:name="com.example.exampleproject.MainActivity" >
-26-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:17:9-23:20
-26-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:17:19-73
-27            <intent-filter>
-27-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:19:17-69
-28-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:21:17-77
-30-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33    </application>
-34
-35</manifest>
+19        android:theme="@style/AppTheme" >
+19-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.exampleproject.Vegetables2" />
+20-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:12:9-84
+20-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:12:19-72
+21        <activity android:name="com.example.exampleproject.Fruits2" />
+21-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:13:9-71
+21-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:13:19-68
+22        <activity android:name="com.example.exampleproject.Favorites" />
+22-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:14:9-73
+22-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:14:19-70
+23        <activity android:name="com.example.exampleproject.Vegetables" />
+23-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:15:9-74
+23-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:15:19-71
+24        <activity android:name="com.example.exampleproject.Fruits" />
+24-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:16:9-70
+24-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:16:19-67
+25        <activity android:name="com.example.exampleproject.MainActivity" >
+25-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:17:9-23:20
+25-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:17:19-73
+26            <intent-filter>
+26-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:18:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:19:17-69
+27-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:21:17-77
+29-->I:\Development\Android\Foreign Clinents\ExampleProject\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>

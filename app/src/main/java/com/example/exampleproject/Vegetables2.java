@@ -5,9 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.List;
 
 public class Vegetables2 extends AppCompatActivity {
+    private static final String TAG = "Fruits";
+    AppDatabase database;
 
     @SuppressLint({"SetTextI18n", "ResourceType"})
 
@@ -15,12 +23,38 @@ public class Vegetables2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vegetables2);
-
+        database = new AppDatabase(this);
         Intent intent = getIntent();
-        String text = intent.getStringExtra(Vegetables.EXTRA_TEXT);
+        final String text = intent.getStringExtra(Vegetables.EXTRA_TEXT);
 
         TextView title = findViewById(R.id.title);
         TextView info = findViewById(R.id.info);
+        CheckBox stateCheckBox = findViewById(R.id.checkbox_favorite);
+        List<String> favs = database.getData();
+        if(favs.contains(text)){
+            stateCheckBox.setButtonDrawable(R.drawable.ic_favorite_active);
+            stateCheckBox.setChecked(!stateCheckBox.isChecked());
+        }
+        else {
+            stateCheckBox.setButtonDrawable(R.drawable.ic_favorite_default);
+        }
+        stateCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked){
+                    buttonView.setButtonDrawable(R.drawable.ic_favorite_active);
+                    database.insertFavorite(text);
+                    Toast.makeText(Vegetables2.this, "Added to favorites", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    buttonView.setButtonDrawable(R.drawable.ic_favorite_default);
+                    database.delete(text);
+                    Toast.makeText(Vegetables2.this, "Removed from favorites", Toast.LENGTH_SHORT).show();
+                }
+                Log.d(TAG, "onCheckedChanged: "+database.getData());
+            }
+        });
+
 
         assert text != null;
         switch (text) {
